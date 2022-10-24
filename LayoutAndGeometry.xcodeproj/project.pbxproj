@@ -11,6 +11,7 @@
 		18A1ADF128F8A7AB002A0887 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1ADF028F8A7AB002A0887 /* ContentView.swift */; };
 		18A1ADF328F8A7AE002A0887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A1ADF228F8A7AE002A0887 /* Assets.xcassets */; };
 		18A1ADF628F8A7AE002A0887 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A1ADF528F8A7AE002A0887 /* Preview Assets.xcassets */; };
+		18E2B9DC2906DFF700A71B42 /* AlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2B9DB2906DFF700A71B42 /* AlignmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		18A1ADF028F8A7AB002A0887 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18A1ADF228F8A7AE002A0887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A1ADF528F8A7AE002A0887 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18E2B9DB2906DFF700A71B42 /* AlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		18A1ADED28F8A7AB002A0887 /* LayoutAndGeometry */ = {
 			isa = PBXGroup;
 			children = (
+				18E2B9DA2906DFDD00A71B42 /* exercises */,
 				18A1ADEE28F8A7AB002A0887 /* LayoutAndGeometryApp.swift */,
 				18A1ADF028F8A7AB002A0887 /* ContentView.swift */,
 				18A1ADF228F8A7AE002A0887 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				18A1ADF528F8A7AE002A0887 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18E2B9DA2906DFDD00A71B42 /* exercises */ = {
+			isa = PBXGroup;
+			children = (
+				18E2B9DB2906DFF700A71B42 /* AlignmentView.swift */,
+			);
+			path = exercises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A1ADF128F8A7AB002A0887 /* ContentView.swift in Sources */,
+				18E2B9DC2906DFF700A71B42 /* AlignmentView.swift in Sources */,
 				18A1ADEF28F8A7AB002A0887 /* LayoutAndGeometryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
