@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// a strange way to make a custom alignment
 extension VerticalAlignment {
   struct MidAccountAndName: AlignmentID {
     static func defaultValue(in d: ViewDimensions) -> CGFloat {
@@ -19,6 +20,7 @@ extension VerticalAlignment {
 
 struct AlignmentView: View {
   var body: some View {
+    
     //    HStack {
     //      Text("Live")
     //        .font(.caption)
